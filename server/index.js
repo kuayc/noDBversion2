@@ -9,5 +9,4 @@ app.use(express.json());
 // app.delete("/api/travel/:id", removeDestination);
 
 const PORT = 5000;
-
-app.listen(PORT, () => console.log(`Big brother is listening PORT ${PORT}`));
+app.listen(PORT, () => console.log(`Big brother listening PORT ${PORT}`));
